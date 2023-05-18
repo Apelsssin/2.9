@@ -20,7 +20,7 @@ public:
 				if ((numerator_ % i) == 0 && (denominator_ % i) == 0) {
 					numerator_ = numerator_ / i;
 					denominator_ = denominator_ / i;
-					(numerator_ <= denominator_) ? min = numerator_ : min = denominator_;
+					
 				}
 			}
 			
